@@ -1,0 +1,312 @@
+/* Body Styles */
+body {
+    background-image: url(https://wallpapers.com/images/hd/avengers-infinity-war-0absgbsr9ndyyykx.webp);
+    background-size: cover;
+}
+
+#logo{
+    position: absolute; 
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+
+/* Top Bar Styles */
+#top-bar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    border-radius: 10px;
+}
+
+/* Main Heading Styles */
+#main-heading {
+    font-size: 40px;
+    margin-left: 450px;
+    font-weight: 600;
+    color: #000000; /* Black text color */
+}
+
+/* Favourites Button Styles */
+#favourites-button {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    color: #000000; /* Black text color */
+    margin-left: auto; /*pushes the button to the right*/
+}
+
+#favourites-button:hover {
+    color: #000000; /* Black text color on hover */
+    cursor: pointer;
+}
+
+/* Theme Button Styles */
+#theme-button {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000; /* Black text color */
+}
+
+#theme-button:hover {
+    color: #000000; /* Black text color on hover */
+    cursor: pointer;
+}
+
+/* Search Bar Styles */
+#search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    height: 23px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    /* background-color: black; */
+}
+
+
+#search-bar:hover{
+    /* box-shadow:  5px 10px red; */
+}
+
+/* Input Bar Styles */
+#input-bar {
+    height: 40px;
+    width: 500px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    background-color: rgba(253, 253, 253, 0.8);
+    /* border-bottom: 1px solid white; */
+}
+
+#input-bar:hover{
+    box-shadow: 1px 1px 1px white;
+}
+
+#search-button {
+    margin: 10px;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(23, 182, 23, 0.8);
+    border-radius: 7px;
+    border: none;
+}
+
+#search-button:hover {
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 0.5px green;
+}
+
+
+
+#search-results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 318px;
+    padding: 10px;
+    height: auto;
+    width: 495px;
+    background-color: rgba(0, 128, 255, 0.8); 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: black;
+    display: none;   
+}
+
+
+.hero-card {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: auto;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-bottom: 1px solid white;
+}
+
+.hero-card:hover {
+    height: 90px;
+    width: auto;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+
+.hero-image {
+    height: 80px;
+    width: auto;
+    margin-left: 2px;
+    border-radius: 3px;
+    /* border-radius: 50%; */
+}
+
+.hero-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    color: #beafaf; /* Black text color */
+}
+
+
+#error-message {
+    display: none;
+    justify-content: center;
+    background-color: rgb(255, 0, 0, 0.75) ;
+    margin-top: 20px;
+    font-size: 40px;
+    color:rgba(253, 253, 253, 0.8)
+}
+
+
+.add-to-favourites {
+    margin-left: auto;
+    margin-right:0;
+    width: auto;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-favourites:hover{
+    box-shadow: 0.5px 0.5px 0.5px rgb(219, 229, 219);
+    background-color: rgb(186, 186, 196);
+    border: none;
+    border-radius: 3px;
+    transform: scaleY(1.2);
+    transition: 0.3s;
+}
+
+
+.added-to-favourites {
+    background-color: green;
+    /* Add any other styles you want for the green state */
+  }
+
+  .added-to-favourites:hover {
+    background-color: rgb(2, 103, 2);
+    /* Add any other styles you want for the green state */
+  }
+
+
+
+
+#favourites-menu {
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: center;
+    height:auto;
+    margin: 15px;
+    width: 80vw;
+    margin-left: 120px;
+    background-color: rgb(0, 0, 0, 0.8);
+    height: auto;
+}
+
+#favourites-menu h2 {
+    color: white;
+    position:relative;
+    margin-left: 400px;
+}
+
+#favourites-empty-message{
+    display: none;
+    color: rgb(133, 65, 65);
+    width: 80%;
+    margin: 10px;
+    margin-left: 100px;
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+#favourites-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+}
+
+
+.favourites-card {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    /* flex-wrap: wrap; */
+    height: 200px;
+    width: 200px;
+    /* min-height: 200px; */
+    background-color: rgb(73, 63, 50);
+}
+
+.favourites-card:hover{
+    height: 210px;
+    width: 210px;
+    transition: 0.6s;
+}
+
+.remove-button {
+   margin-top: 20px;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 2px;
+    background-color: rgb(176, 97, 97);
+}
+
+.remove-button:hover {
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 0.5px rgb(219, 229, 219);
+    background-color: rgb(185, 49, 62);
+    border: none;
+    border-radius: 3px;
+    transform: scaleY(1.2);
+    transition: 0.3s;
+}
+
+
+#hero-details {
+    height: auto;
+    width: 70vw;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    padding: 20px;
+    text-color: white;
+    background-color: rgba(12, 12, 65, 0.8);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 20px;
+}
+
+.hero-about {
+    color: white;
+    margin-top: 30px;
+}
