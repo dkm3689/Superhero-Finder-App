@@ -10,7 +10,6 @@ const favouritesSet = new Set();
 
 const storedFavourites = localStorage.getItem("localFavouritesSet");
 
-
 const Ts = Date.now();
 const public = "ed62d5adbade00ecab8a29380ea234db";
 const private = "082c98aea1e7c87b9ec65aed40af8f014db9e202";
