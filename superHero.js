@@ -8,8 +8,6 @@ const favouritesRow = document.getElementById("favourites-row");
 const favouritesButton = document.getElementById("favourites-button");
 const favouritesSet = new Set();
 
-const storedFavourites = localStorage.getItem("localFavouritesSet");
-
 
 const Ts = Date.now();
 const public = "ed62d5adbade00ecab8a29380ea234db";
