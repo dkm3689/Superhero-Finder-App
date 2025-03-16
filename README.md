@@ -1,10 +1,3 @@
-## Installation 💻
-**Open the app**:  
-Simply open the `index.html` file in your browser to start using the app.
-
-## Dependencies ⚙️
-- **Vanilla JavaScript**: No frameworks, just plain JavaScript to handle the logic and DOM manipulation.
-- **Marvel API**: The Marvel API provides the data for superhero details like names, images, and descriptions.
 # Superhero Finder App 🦸‍♂️🦸‍♀️
 
 ## Overview
@@ -46,9 +39,6 @@ Want to make the app even better? Here’s how you can contribute:
 3. Submit a pull request with a clear description of the changes you've made.
 
 Please make sure your code follows the existing code style and includes any necessary updates to documentation.
-
-## License 📝
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments 🙌
 - **Marvel API**: For providing an incredible source of data about Marvel superheroes.
