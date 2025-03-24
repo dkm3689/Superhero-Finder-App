@@ -41,6 +41,8 @@ Want to make the app even better? Here’s how you can contribute:
 
 Please make sure your code follows the existing code style and includes any necessary updates to documentation.
 
+
+
 ## Acknowledgments 🙌
 - **Marvel API**: For providing an incredible source of data about Marvel superheroes.
 - Thanks to all contributors who help improve the project!
