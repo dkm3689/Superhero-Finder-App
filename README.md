@@ -10,7 +10,8 @@ Welcome to the **Superhero Finder App**! This app allows you to easily search fo
 - **Character Details**: View superhero details like their name, description, and image.
 
 ## Live Demo 🚀
-You can check out the live demo of this app here:  
+You can check out the live demo of this app here:
+
 [Live Demo Link](#)
 
 ## Installation 💻
